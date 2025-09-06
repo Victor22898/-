@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+(.venv) C:\Users\Виктор\PycharmProjects\Мой проект>python3 -m venv venv 
+Python 
+(.venv) C:\Users\Виктор\PycharmProjects\Мой проект>python -m venv venv  
+
+(.venv) C:\Users\Виктор\PycharmProjects\Мой проект>
+(.venv) C:\Users\Виктор\PycharmProjects\Мой проект>venv\Scripts\activate
+
+
+(venv) C:\Users\Виктор\PycharmProjects\Мой проект>
+
+(venv) C:\Users\Виктор\PycharmProjects\Мой проект>pip install django pillow
+Collecting django
+  Using cached django-5.2.6-py3-none-any.whl.metadata (4.1 kB)
+Collecting pillow
+  Downloading pillow-11.3.0-cp313-cp313-win_amd64.whl.metadata (9.2 kB)
+Collecting asgiref>=3.8.1 (from django)
+  Using cached asgiref-3.9.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Using cached sqlparse-0.5.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting tzdata (from django)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Downloading django-5.2.6-py3-none-any.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 98.4 kB/s  0:03:24                      
+Downloading pillow-11.3.0-cp313-cp313-win_amd64.whl (7.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 71.0 kB/s  0:02:12                      
+Using cached asgiref-3.9.1-py3-none-any.whl (23 kB)
+Using cached sqlparse-0.5.3-py3-none-any.whl (44 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Installing collected packages: tzdata, sqlparse, pillow, asgiref, django
+Successfully installed asgiref-3.9.1 django-5.2.6 pillow-11.3.0 sqlparse-0.5.3 tzdata-2025.2   
+
+(venv) C:\Users\Виктор\PycharmProjects\Мой проект>
